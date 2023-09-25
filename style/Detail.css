@@ -1,0 +1,188 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, span, applet, object, iframe,
+h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0px;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+    margin: 10px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.nav{
+    width: 1728px;
+    height: 166px;
+    background-color: #FFB3C1;
+}
+.image{
+    width: 1467px;
+    height: 390px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 5px;
+}
+.image--grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+}
+
+.image>.image--grid>img{
+    width: 400px;
+    gap: 5px;
+    height: 190px;
+    border-radius: 30px;
+}
+.image>img:first-child{
+    height: 390px;
+    grid-column-start: 1;
+    grid-column-end: -4;
+    border-radius: 30px;
+}
+.image--display{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #FFB3C1;
+    border-radius: 30px;
+    margin: 15px;
+}
+.image--display p{
+    position: relative;
+    top: 15px;
+}
+.form__booking{
+    position: fixed; 
+    top: 600px;
+    left: 1400px;
+    max-height: calc(100vh - 100px);
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #FFB3C1;
+    z-index: 1;
+    padding: 20px;
+}
+.form__booking a{
+    position: relative;
+    top: 15px;
+    text-decoration : none;
+    color: #C9184A;
+}
+.block__title{
+    display: flex;
+    justify-content: space-between;
+}
+.block__title--type{
+    padding: 15px;
+    font-size: 20px;
+    /* color: ; */
+}
+.block__avata .block__icon--relative{
+    padding: 15px;
+}
+.block__avata .block__icon--absolute{
+    position: relative; 
+    top: -10px;
+    right: 40px;
+}
+.vector--row{
+    width: 805px;
+    height: 2px;
+    background-image: url(../image/Vector1.png);
+    background-size: cover;
+    margin: 50px 0px;
+}
+.title__description{
+    width: 804px;
+    line-height: 1.5;
+    font-size: medium;
+    color: #C9184A;
+}
+.evaluate__reviews{
+    width: 384px;
+    text-align: center;
+}
+#myForm{
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: aquamarine;
+    margin-left: 100vh;
+    display: inline-block;
+    position: relative;
+}
+#myForm label{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    padding-right: 10px;
+    font-size: larger;
+}
+.title__evaluate{
+    margin: 20px 0px;
+}
+.block__image{
+    display: grid;
+}
+.block__image>img:not(:nth-child(1)){
+    margin-top: 30px;
+}
+.block__evaluate{
+    margin: 20px 0px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.block__evaluate>div{
+    background-color: #FF8FA3;
+    width: 400px;
+    border-radius: 30px;
+}
+.block__evaluate>div:not(:last-child){
+    border: 1px solid #C9184A;
+}
+
