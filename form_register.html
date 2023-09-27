@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form-sign-register</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style/form_sign_register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="modal">
+        <div class="modal__overlay"></div>
+        <!-- Register-form -->
+        <div class="modal__body">
+            <div class="auth-form auth-form__register">
+                <div class="auth-form__container">
+                    <div class="auth-form__sign">
+                            <!-- header -->
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Register</h3>
+                            <a class="auth-form__swith" href="form_login.html">Log in</a>
+                        </div>
+                        <!-- body -->
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Name">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="email" class="auth-form__input" placeholder="Email">
+                            </div>
+                            <div class="auth-form__group date-gender">
+                                <div class="auth-form__date">
+                                    <input type="date" id="auth-form__date" class="auth-form__input "placeholder="Date of birth">
+                                </div>
+                                <select name="gender" id="auth-form__gender" class="auth-form__input">
+                                    <option value="0">Gender</option>
+                                    <option value="1">Male</option>
+                                    <option value="2">Female</option>
+                                </select>
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="tel" class="auth-form__input" placeholder="Phone number">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Password">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Confirm password">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="auth-form__aside">
+                        <p class="auth-form__inform"><input type="checkbox"> We will call or text you to confirm the phone number.
+                        <a class="auth-form__policy-link" href="#">Privacy policy</a>
+                        </p>
+                    </div>
+                    <div class="auth-form__control">
+                        <!-- <button class="button">BACK</button> -->
+                        <button class="btn btn-primary">Continue</button>
+                    </div>
+                    <div class="auth-form__or">
+                        <div><hr></div>
+                        <div><span><i>OR</i></span></div>
+                        <div><hr></div>
+                    </div>
+                    <div class="auth-form__social">
+                        <a href="" class="btn btn--with-icon">
+                            <i class="fa-brands fa-facebook"></i>
+                            Continue with facebook
+                        </a>
+                        <a href="" class="btn btn--with-icon">
+                            <i class="fa-brands fa-google"></i>
+                            Continue with Google
+                        </a>
+                        <a href="" class="btn btn--with-icon">
+                            <i class="fa-brands fa-apple"></i>
+                            Continue with Apple
+                        </a>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+    </div>
+
+</body>
+</html>
