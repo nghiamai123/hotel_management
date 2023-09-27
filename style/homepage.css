@@ -37,8 +37,11 @@ p{
     background-color: #D9D9D9;
 }
 
-#contact--yawnyawn-mail-text ,#contact--yawnyawn-phone-text, #navbar--user{
+#contact--yawnyawn-mail-text,#contact--yawnyawn-phone-text, #navbar--user{
     padding: 20px;
+}
+#contact--yawnyawn-mail-text{
+    font-family: 'Roboto', sans-serif;
 }
 .row--contact{
     padding: 20px;

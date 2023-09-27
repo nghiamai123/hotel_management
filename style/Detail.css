@@ -89,10 +89,7 @@ p{
 }
 #contact--yawnyawn-mail-text ,#contact--yawnyawn-phone-text, #navbar--user{
     padding: 20px;
-}
-#contact--yawnyawn-mail-text{
     font-family: 'Roboto', sans-serif;
-    font-size: small;
 }
 .row--contact{
     padding: 20px;
