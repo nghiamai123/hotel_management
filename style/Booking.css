@@ -32,6 +32,9 @@ body{
         align-items: center;
         
     }
+    #navbarSupportedContent{
+        justify-content: space-between;
+    }
     #head2{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -48,11 +51,14 @@ body{
         border: 0.5px solid black;
         margin: 0px 5px;
         border-radius: 10px;
-       
-        
+        color: #FFB3C1;
+    }
+    i{
+        color:#F798A3 ;
     }
     .text p{
         font: size 15px;
+        color: #C9184A;
     }
     .icon{
     width: 30px;
@@ -82,11 +88,15 @@ body{
         padding-left: 15px;
         margin: 0;
     }
+    h4{
+        color: #C9184A;
+    }
     .text2 h4{
         margin: 5px 0px;
     }
     .text2 p{
         margin: 0;
+        color: #C9184A;
     }
     #footer{
         display: flex;
@@ -119,7 +129,6 @@ body{
     align-items: center;
 }
 input[type="date"]{
-
     border: none;
 }
 #nav1{
@@ -145,7 +154,7 @@ select{
 }
 input[type="submit"]{
     /* border: 0.7px solid black; */
-    background-color: rgb(213, 47, 47);
+    background-color: #C9184A;
     border-radius: 10px;
     width:500px;
     height: auto;
