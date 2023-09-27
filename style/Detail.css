@@ -341,4 +341,9 @@ a{
 .block__evaluate>div:not(:last-child){
     border: 1px solid #C9184A;
 }
-
+.navbar-nav.me-auto.mb-2.mb-lg-0{
+    margin-right: 0px !important;
+}
+#navbarSupportedContent.collapse.navbar-collapse{
+    justify-content: space-around;
+}
