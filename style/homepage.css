@@ -144,8 +144,20 @@ a{
     color: var(--primary);
 }
 
-
 .room-item a.btn-primary {
     background-color: var(--primary);
     color: var(--light);
+}
+
+.navbar-nav.me-auto.mb-2.mb-lg-0{
+    margin-right: 0px !important;
+}
+
+#navbarSupportedContent.collapse.navbar-collapse{
+    justify-content: space-around;
+}
+
+.fa-solid.fa-magnifying-glass {
+    position: relative;
+    left: -20%;
 }
